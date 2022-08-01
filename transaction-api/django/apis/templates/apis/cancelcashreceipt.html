@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="{% static 'apis/bulma/bulma.min.css' %}"/>
+      
+  <title>발급취소 성공 (Django)</title>
+</head>
+    
+<body>
+    
+<section>
+    <h1>발급취소 성공</h1>
+    
+    <p>결과 데이터 : </p>
+    <div>
+      <pre>{{ res }}</pre>
+    </div>
+    <br><br>
+    
+</section> 
+
+<button class="button is-link" onclick="location.href='/apis/';">돌아가기</button>
+    
+</body>
+</html>
